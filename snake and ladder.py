@@ -11,8 +11,8 @@ end=100
 def show_board():
     img=Image.open("snake_ladder.png")
     img.show()
-    
-def check_ladder(points):
+#note: I've not set the numbers as on a real ladder game so please check what numbers represnts ladder and customise this funct   
+def check_ladder(points):ion.
     if(points==5):
         print('ladder')
         return 23
@@ -21,7 +21,7 @@ def check_ladder(points):
         return 98
     else:
         return(points)
-    
+#note: I've not set the numbers as on a real snake game so please check what numbers represnts snake and customise this funct   
 def check_snake(points):
     if(points==45):
         print("snake")
